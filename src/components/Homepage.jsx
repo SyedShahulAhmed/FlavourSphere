@@ -39,14 +39,14 @@ const Homepage = () => {
   return (
     <div className="min-h-screen bg-gray-800 p-5">
       {/* Search Section */}
-      <div className="flex justify-center mt-[70px]  flex-col items-center p-7 w-[400px] mx-auto md:w-[600px] rounded-lg  bg-[#1E1E2F] shadow-2xl  " >
+      <div className="flex justify-center mt-[70px]  flex-col items-center p-7 w-full mx-auto md:w-[600px] rounded-lg  bg-[#1E1E2F] shadow-2xl  " >
         <h1 className="text-2xl font-bold mb-4 md:text-3xl text-[#EAEAEA]">Flavor<span className='text-yellow-600'>Sphere</span></h1>
-        <div className="flex border-2 border-gray-500 rounded-lg w-[350px] md:w-[550px] overflow-hidden py-3  justify-between px-2 items-center focus-within:border-[#6A5ACD]">
+        <div className="flex border-2 border-gray-500 rounded-lg w-[320px] md:w-[550px] overflow-hidden py-3  justify-between px-2 items-center focus-within:border-[#6A5ACD]">
           <input x
             type="text"
             placeholder="Find your next favorite dish..."
             className="p-4 text-md outline-none w-[80%] text-lg bg-transparent text-white 
-            placeholder:text-gray-300
+            placeholder:text-gray-300 placeholder:text-[14px] md:placeholder:text-lg
             "
             onChange={handleSearch}
             onKeyDown={handleKeyPress} 
