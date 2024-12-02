@@ -2,7 +2,7 @@
 
 A beautifully designed and responsive website built with **React** and **Tailwind CSS**. This project offers insights into various recipes, highlighting diverse cuisines, vibrant dishes, and culinary culture from around the globe.  
 
-**Live Demo:** [FlavourSphere](https://flavoursphere-demo.com) 🌐
+**Live Demo:** [FlavourSphere]https://flavoursphere-omega.vercel.app/) 🌐
 
 ## Preview 🖼️  
 
