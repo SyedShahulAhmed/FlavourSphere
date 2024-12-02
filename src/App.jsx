@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Homepage from "./components/homepage";
+import Homepage from "./components/Homepage";
 import { Route, Routes } from "react-router-dom";
 import RecipeInfo from "./components/RecipeInfo";
 function App() {
